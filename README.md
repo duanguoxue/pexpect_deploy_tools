@@ -12,11 +12,11 @@ pexpect_deploy_tools
 
 pscp.py 拷贝本地文件到远程机器(iplist.txt)列表的制定目录
 -------------------------------------------------------
-pscp.py iplist.txt source_localfile destpath
-说明：
-iplist.txt: 远程机器列表
-source_localfile: 需要拷贝的文件
-destpath: 远程目的路径
+pscp.py iplist.txt source_localfile destpath  
+说明：  
+iplist.txt: 远程机器列表  
+source_localfile: 需要拷贝的文件  
+destpath: 远程目的路径  
 
 rshell.py 远程机器上执行 test.sh
 --------------------------------------
